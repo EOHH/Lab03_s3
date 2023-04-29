@@ -1,0 +1,77 @@
+body {
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 50px;
+}
+form {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 500px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #666;
+}
+input[type=number] {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+    width: 100%;
+    margin-bottom: 20px;
+}
+input[type=submit] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: 20px;
+}
+p.resultado {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 500px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    margin-top: 50px;
+}
+p.resultado span {
+    font-weight: bold;
+    color: #666;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+.nextpage {
+    text-align: center;
+    margin-top: 20px;
+}
+.nextpage a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.nextpage a:hover {
+    background-color: #0056b3;
+}
